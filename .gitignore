@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Files processed
+*.pdf
+*.md
+
+# Virtual environments
+.venv
+*.env
+*.env.sh
+*.env.prod
+
+# MacOS files (DS_Store files)
+**/.DS_Store
+.DS_Store

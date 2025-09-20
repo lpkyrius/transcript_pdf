@@ -1,8 +1,9 @@
 # transcript_pdf
 Transcribes PDF files to Markdown files.
-⭐️ This one works only with PDF files, including PDF files generated from scanned documents.
 
-### Prerequisites
+Works only with PDF files, including PDF files generated from scanned documents (using OCR).
+
+## Prerequisites
 
 ```
 pip install uv
@@ -29,7 +30,9 @@ uv run python main.py
 
 ````
 
-Note: For an accurated result, it may requires you to define the language of your PDF file:
+## Note
+For an accurated result, it may requires you to define the language of your PDF file:
+
 ```
 # English
 ocr_pdf(pdf_path, lang="eng"): 
